@@ -1,0 +1,128 @@
+#cyber_fifty {
+    width: 100%;
+    height: 680px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+    #cyber {
+        width: 50%;
+        height: 680px;
+        margin-top: 90px;
+    }
+
+        #cyber_png {
+            width: 100%;
+            height: 138px;
+            background: url(img/cyber.png) no-repeat;
+        }
+
+        #cyber_text {
+            width: 40%;
+            height: 49px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;        
+            display: flex;
+            color: #FFFFFF;
+        }
+
+        #btn_save_big {
+            width: 32%;
+            height: 54px;
+            margin-top: 40px;
+            border: transparent;
+            background: #8276FF;
+            border-radius: 30px;
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            color: #FFFFFF;
+        }
+
+        #trial_card {
+            width: 45%;
+            height: 19px;
+            margin-top: 15px;
+            display: flex;
+        }
+
+            #trc_png {
+                width: 6%;
+                height: 19px;
+                background: url(img/velvet_sign.png) no-repeat;
+            }
+
+            #trc_text {
+                width: 84%;
+                height: 19px;
+                margin-left: 5%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                color: #FFFFFF;
+            }
+        
+        #reviews {
+            width: 79%;
+            height: 20px;
+            margin-top: 70px;
+            display: flex;
+        }
+
+            #stars {
+                width: 10%;
+                height: 20px;
+                background: url(img/stars.png) no-repeat;
+            }
+
+            #reviews_text {
+                margin-left: 1%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 20px;
+                color: #FFFFFF;
+            }
+        
+        #companies_3 {
+            width: 57%;
+            height: 50px;
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+            #capterra {
+                width: 31%;
+                height: 25px;
+                background: url(img/capterra.png) no-repeat;
+            }
+
+            #crowd {
+                width: 27%;
+                height: 27px;
+                background: url(img/crowd.png) no-repeat;
+            }
+
+            #getapp {
+                width: 30%;
+                height: 50px;
+                background: url(img/getapp.png) no-repeat;
+            }
+
+    #fifty {
+        width: 42%;
+        height: 680px;
+        background: url(img/50_off.png) no-repeat;
+    }

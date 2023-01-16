@@ -1,0 +1,34 @@
+#navbar {
+    width: 100%;
+    height: 74px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    #webwork {
+        width: 14%;
+        height: 36px;
+        background: url(img/webwork.png) no-repeat;
+    }
+
+    #get_now {
+        width: 15%;
+        height: 42px;
+        display: flex;
+        justify-content: center;
+    }
+
+        #btn_get_now {
+            width: 175px;
+            height: 42px;
+            background: transparent;
+            border: 1px solid #8276FF;
+            border-radius: 131px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-size: 16px;
+            color: #FFFFFF;
+        }

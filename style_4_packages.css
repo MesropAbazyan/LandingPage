@@ -1,0 +1,182 @@
+#packages {
+    width: 100%;
+    height: 667px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.discs {
+    position: relative;
+    width: 45%;
+    height: 667px;
+}
+
+    .fifty {
+        position: absolute;
+        width: 43.3%;
+        height: 247px;
+        left: 345px;
+        top: 0px;
+        background: url(img/50.png) no-repeat;
+    }
+
+    #eighteen {
+        background: url(img/5018.png) no-repeat;
+    }
+
+    .board {
+        position: absolute;
+        width: 88%;
+        height: 586px;
+        left: 0px;
+        top: 80px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(141, 159, 244, 0.3);
+        backdrop-filter: blur(5.5px);
+        border-radius: 10px;
+    }
+
+        .head_div {
+            width: 100%;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .head_text {
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 39px;
+                line-height: 52px;
+                letter-spacing: 0.007em;
+                color: rgba(255, 255, 255, 0.86);
+            }
+
+        .prices {
+            width: 100%;
+            height: 125px;
+            display: flex;
+            justify-content: center;
+        }
+
+            .old_price {
+                position: absolute;
+                width: 90px;
+                height: 60px;
+                left: 80px;
+                top: 130px;
+                background: url(img/499.png) no-repeat;
+            }
+
+            #yearly_old_price {
+                background: url(img/409.png) no-repeat;
+            }
+
+            .new_price {
+                width: 37%;
+                height: 125px;
+                background: url(img/249.png) no-repeat;
+            }
+
+            #yearly_new_price {
+                background: url(img/205.png) no-repeat;
+            }
+
+        .per_usm_div {
+            position: absolute;
+            width: 100%;
+            height: 60px;
+            left: 0px;
+            top: 220px;
+            display: flex;
+            justify-content: center;
+        }
+
+            .per_usm {
+                width: 200px;
+                height: 60px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 26px;
+                line-height: 59px;
+                letter-spacing: 0.007em;
+                color: rgba(255, 255, 255, 0.75);
+            }
+
+        .benefits {
+            position: relative;
+            width: 100%;
+            height: 49px;
+        }
+        
+            .ben_sign {
+                position: absolute;
+                width: 24px;
+                height: 24px;
+                left: 29%;
+                top: 20%;
+                background: url(img/green_sign.png);
+            }
+
+            .ben_text {
+                position: absolute;
+                width: 120px;
+                height: 49px;
+                left: 36%;
+                top: 0%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 20px;
+                letter-spacing: 0.007em;
+                color: #FFFFFF;
+            }
+
+            #benefit_text {
+                width: 90px;
+            }
+
+        .btn_benefit_div {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+            .btn_benefit {
+                width: 42%;
+                height: 54px;
+                border: transparent;
+                background: #8276FF;
+                border-radius: 30px;
+                color: #FFFFFF;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 25px;
+            }
+
+        #six_months_div {
+            width: 100%;
+            height: 25px;
+            display: flex;
+            justify-content: end;
+        }
+        
+            #six_months {
+                width: 20%;
+                height: 25px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: 0.007em;
+                color: #FFFFFF;
+            }

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#landing_page {
+    width: 100%;
+    height: 4286px;
+    background: #100C16;
+}
+
+
+#ellipse_1 {
+    position: absolute;
+    width: 36%;
+    height: 480px;
+    left: -98px;
+    top: 1354px;
+}
+
+    #el_1 {
+        width: 100%;
+        height: 480px;
+        background: rgba(99, 133, 253, 0.1);
+        filter: blur(115px);
+    }
+
+#ellipse_2 {
+    position: absolute;
+    width: 28%;
+    height: 396px;
+    left: 968px;
+    top: 1006px;
+}
+
+    #el_2 {
+        width: 100%;
+        height: 396px;
+        background: rgba(253, 119, 159, 0.1);
+        filter: blur(115px);
+    }
+
+#ellipse_3 {
+    position: absolute;
+    width: 28%;
+    height: 480px;
+    left: 970px;
+    top: 2260px;
+}
+
+    #el_3 {
+        width: 100%;
+        height: 480px;
+        background: rgba(99, 133, 253, 0.1);
+        filter: blur(115px);
+    }

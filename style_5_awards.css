@@ -1,0 +1,87 @@
+
+#awards_div {
+    width: 100%;
+    height: 242px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+    #awards {
+        position: relative;
+        width: 92%;
+        height: 242px;
+    }
+
+        .award {
+            position: absolute;
+            width: 206px;
+            height: 242px;
+        }
+
+        #aw_01 {
+            left: -1%;
+            top: 45px;
+            background: url(img/aw_1.png) no-repeat;
+        }
+
+        #aw_02 {
+            left: 5%;
+            top: 32px;
+            background: url(img/aw_2.png) no-repeat;
+        }
+
+        #aw_03 {
+            left: 12%;
+            top: 22px;
+            background: url(img/aw_3.png) no-repeat;
+        }
+
+        #aw_04 {
+            left: 20%;
+            top: 16px;
+            background: url(img/aw_4.png) no-repeat;
+        }
+
+        #aw_05 {
+            left: 28%;
+            top: -2px;
+            background: url(img/aw_5.png) no-repeat;
+        }
+
+        #aw_06 {
+            left: 40.5%;
+            top: -15px;
+            background: url(img/aw_6.png) no-repeat;
+        }
+
+        #aw_07 {
+            left: 54.5%;
+            top: -3px;
+            background: url(img/aw_7.png) no-repeat;
+        }
+
+        #aw_08 {
+            left: 65.5%;
+            top: 16px;
+            background: url(img/aw_8.png) no-repeat;
+        }
+
+        #aw_09 {
+            left: 74.5%;
+            top: 25px;
+            background: url(img/aw_9.png) no-repeat;
+        }
+
+        #aw_10 {
+            left: 82.5%;
+            top: 32px;
+            background: url(img/aw_10.png) no-repeat;
+        }
+
+        #aw_11 {
+            width: 178px;
+            left: 90%;
+            top: 40px;
+            background: url(img/aw_11.png) no-repeat;
+        }
